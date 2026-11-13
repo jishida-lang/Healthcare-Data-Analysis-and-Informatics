@@ -1,7 +1,7 @@
 # Healthcare-Data-Analysis-and-Informatics
 This is the module end assignment.This project aims to analyze a comprehensive healthcare dataset  comprising medical examinations, hospitalization details, and customer profiles to extract  insights into patient health profiles, medical histories, and healthcare costs.
 # # Data Cleaning:  
-# 1.Missing value - =countif (G2:G244,"~")
+ 1.Missing value - =countif (G2:G244,"~")
 # 2.missing value Month =if(C2="2","SEP",C2).Year=if(B2="?",Average($B$2:$B$2344),B2
 # 3.missing value -find most frequent value =countif(H2:H2336,H2),=countif(H2:H2336,H2336)get "NO".hospital tier=countif(G2:G2344,G241),=countif(G2:G2344,G2),=countif(G2:G2344,G6)get tier-2. city tier =countif(H2:H2344,H3),=countif(H2:H2344,H20)=countif(H2:H2344,H7),get-tier2
 # 4. mising value state ID =if(I2="?","Unknown",I2)
